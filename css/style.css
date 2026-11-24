@@ -278,7 +278,7 @@ html[lang=te] h2{line-height:1.25}
 .dock{display:none}
 
 /* hero founder chip */
-.founder-chip{right:0;bottom:22px;padding:8px 18px 8px 8px;animation-delay:-3s;color:#fff;transition:background .3s,transform .3s}
+.founder-chip{right:0;bottom:130px;padding:8px 18px 8px 8px;animation-delay:-3s;color:#fff;transition:background .3s,transform .3s}
 .founder-chip:hover{background:rgba(255,255,255,.2)}
 .founder-chip img{width:52px;height:52px;border-radius:50%;object-fit:cover;border:2px solid var(--gold)}
 .founder-chip b{font-size:1.15rem}
@@ -417,7 +417,7 @@ html[lang=te] h2{line-height:1.25}
   .hero-visual{min-height:520px;max-width:560px;width:100%;margin:0 auto}
   .photo-card img{transform:scale(1)}
   .hero-visual>.glass{background:rgba(255,255,255,.08);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
-  .founder-chip{bottom:104px}
+  .founder-chip{bottom:130px}
   .bento{grid-template-columns:repeat(2,1fr)}
   .card.big,.card.wide{grid-column:span 2}
   .card.big{grid-row:auto;min-height:340px}
