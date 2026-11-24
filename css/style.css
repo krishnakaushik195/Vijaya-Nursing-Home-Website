@@ -440,7 +440,8 @@ html[lang=te] h2{line-height:1.25}
   .burger{display:block}
 }
 @media (max-width:640px){
-  body{padding-bottom:72px}
+  body{padding-bottom:0}
+  .nav{position:relative;top:auto;left:auto;transform:none;margin:12px auto -78px;width:calc(100% - 20px);background:rgba(11,16,32,.92);backdrop-filter:none;-webkit-backdrop-filter:none}
   .nav{padding:8px 10px 8px 12px}
   .brand-txt small{display:none}
   .brand-txt{font-size:.88rem}
@@ -489,7 +490,7 @@ html[lang=te] h2{line-height:1.25}
   .t-num{width:48px;height:48px}
   .t-line{left:23px}
   .marquee-track{font-size:1.05rem}
-  .dock{position:fixed;left:10px;right:10px;bottom:10px;z-index:650;display:grid;grid-template-columns:1.3fr 1fr .8fr;gap:8px;padding:8px;border-radius:22px;background:rgba(11,16,32,.92);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.14);box-shadow:0 10px 40px rgba(0,0,0,.4)}
+  .dock{position:relative;left:auto;right:auto;bottom:auto;z-index:5;display:grid;grid-template-columns:1.3fr 1fr .8fr;gap:8px;width:calc(100% - 20px);margin:18px auto 22px;padding:8px;border-radius:22px;background:rgba(11,16,32,.92);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.14);box-shadow:0 10px 40px rgba(0,0,0,.4)}
   .dock a{display:flex;align-items:center;justify-content:center;gap:8px;padding:12px;border-radius:16px;color:#fff;font-weight:700;font-size:.9rem;background:rgba(255,255,255,.08)}
   .dock .dock-call{background:var(--red)}
   .dock .dock-wa{background:#25d366;color:#06361b}
