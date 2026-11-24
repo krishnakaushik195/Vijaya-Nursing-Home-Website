@@ -1,0 +1,6 @@
+/* TEAM */
+Designed & Developed by Kaushik AI Labs — https://www.kaushikailabs.com
+
+/* SITE */
+Client: Vijaya Nursing Home - Chest Pain Hospital, Tuni
+Standards: HTML5, CSS3, vanilla JavaScript
