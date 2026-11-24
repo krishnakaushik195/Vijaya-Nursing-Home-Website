@@ -414,7 +414,11 @@ html[lang=te] h2{line-height:1.25}
 /* responsive */
 @media (max-width:1000px){
   .hero-grid{grid-template-columns:1fr;gap:20px}
-  .hero-visual{min-height:440px;max-width:560px;width:100%;margin:0 auto}
+  .hero-visual{min-height:0;max-width:560px;width:100%;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .hero-visual .photo-card{position:relative;inset:auto;grid-column:1/-1;aspect-ratio:4/3;rotate:0deg;border-radius:28px 80px 28px 28px}
+  .hero-visual .glass{position:relative;inset:auto;left:auto;right:auto;top:auto;bottom:auto;animation:none;min-width:0}
+  .hero-visual .founder-chip,.hero-visual .icu-card{grid-column:1/-1}
+  .hero-visual .icu-card{justify-content:center}
   .bento{grid-template-columns:repeat(2,1fr)}
   .card.big,.card.wide{grid-column:span 2}
   .card.big{grid-row:auto;min-height:340px}
@@ -449,16 +453,14 @@ html[lang=te] h2{line-height:1.25}
   .hero{padding-top:110px}
   .hero-stats{gap:22px}
   .hero-stats b{font-size:2rem}
-  .hero-visual{min-height:400px}
-  .photo-card{inset:30px 0 70px 20px}
-  .bpm-card{left:0;top:0}
-  .open-card{right:0;top:190px}
-  .icu-card{left:0;font-size:.78rem}
+  .hero-visual .glass{padding:12px 14px;gap:10px}
+  .hero-visual .glass b{font-size:1.35rem}
+  .hero-visual .icu-card{font-size:.78rem}
   .btn-lg{padding:15px 22px}
   .card.emerg h3,.card.emerg p{max-width:none}
   .card.emerg{display:flex;flex-direction:column}
   .card-photo{order:10;position:relative;right:auto;bottom:auto;width:100%;margin:18px 0 -4px;rotate:-2deg}
-  .founder-chip{bottom:6px;padding-right:14px}
+  .founder-chip{padding-right:14px}
   .f-chip-a{left:0}.f-chip-b{right:0}
   .f-docs .f-doc{grid-template-columns:110px 1fr;gap:12px}
   .f-doc-main{padding-top:30px}
