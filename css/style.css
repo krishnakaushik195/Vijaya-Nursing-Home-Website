@@ -415,6 +415,8 @@ html[lang=te] h2{line-height:1.25}
 @media (max-width:1000px){
   .hero-grid{grid-template-columns:1fr;gap:20px}
   .hero-visual{min-height:520px;max-width:560px;width:100%;margin:0 auto}
+  .photo-card img{transform:scale(1)}
+  .hero-visual>.glass{background:rgba(255,255,255,.08);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
   .founder-chip{bottom:104px}
   .bento{grid-template-columns:repeat(2,1fr)}
   .card.big,.card.wide{grid-column:span 2}
